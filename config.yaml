@@ -1,0 +1,133 @@
+baseURL: "https://carlossanabriam.github.io"
+languageCode: "en-us"
+title: "Carlos Sanabria Miranda"
+theme: hugo-profile
+
+# Pagination (https://gohugo.io/templates/pagination/)
+Paginate: 3
+
+# Google Analytics (https://gohugo.io/templates/internal/#google-analytics)
+#googleAnalytics: G-MEASUREMENT_ID # TODO
+# Disqus (https://gohugo.io/templates/internal/#disqus)
+#disqusShortname: your-disqus-shortname # TODO
+
+# Markdown and other markup related configuration (https://gohugo.io/getting-started/configuration-markup)
+markup:
+  goldmark: # Goldmark is from Hugo 0.60 the default library used for Markdown
+    renderer:
+      unsafe: true # render raw HTMLs
+
+#Menus:
+#  main:
+#    - identifier: blog
+#      name: Blog
+#      title: Blog posts
+#      url: /blogs
+#      weight: 1
+#
+#    - identifier: gallery
+#      name: Gallery
+#      title: Blog posts
+#      url: /gallery
+#      weight: 2
+
+    #Dropdown menu
+    # - identifier: dropdown
+    #   title: Example dropdown menu
+    #   name: Dropdown
+    #   weight: 3
+    # - identifier: dropdown1
+    #   title: example dropdown 1
+    #   name: example 1
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 1
+    # - identifier: dropdown2
+    #   title: example dropdown 2
+    #   name: example 2
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 2
+
+params:
+  # Open Graph (https://gohugo.io/templates/internal/#open-graph) and Twitter Cards (https://gohugo.io/templates/internal/#twitter-cards) metadata
+  title: "Carlos Sanabria Miranda"
+  description: My personal website
+#  images: # TODO
+#    - site-feature-image.jpg
+  # staticPath: ""  # The path to serve the static files from
+  favicon: "/fav.png"
+
+  theme:
+    disableThemeToggle: false
+    # defaultTheme: "light" # dark
+
+  # font:
+  #   fontSize: 1.5rem # default: 1rem
+  #   fontWeight: 500 # default: 400
+  #   lineHeight: 1 # default: 1.5
+  #   textAlign: right # default: left
+
+  # color preference
+  # color:
+  #   textColor:
+  #   secondaryTextColor:
+  #   backgroundColor:
+  #   secondaryBackgroundColor:
+  #   primaryColor:
+  #   secondaryColor:
+
+  #   darkmode:
+  #     textColor:
+  #     secondaryTextColor:
+  #     backgroundColor:
+  #     secondaryBackgroundColor:
+  #     primaryColor:
+  #     secondaryColor:
+
+  # If you want to customize the menu, you can change it here
+  # navbar:
+  #   align: mx-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
+  #   brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+  #   brandName: "Profile" # Brand name for the brand | default is the title variable
+
+  #   menus:
+  #     disableAbout: true
+  #     disableExperience: true
+  #     disableEducation: true
+  #     disableProjects: true
+  #     disableAchievements: true
+  #     disableContact: true
+
+  # Hero
+  hero:
+    enable: true
+    intro: "Hi, my name is"
+    title: "Carlos."
+    subtitle: "I build data platforms"
+    content: "A passionate big data engineer.
+        I tend to make use of modern technologies to implement, test, deploy, automate and maintain data driven apps."
+    image: /images/hero.png
+    button:
+      enable: true
+      name: "Resume"
+      url: "https://drive.google.com/file/d/1t1belGdS1F8FjLF4mlUyTauDK4P43VQC/view?usp=sharing"
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: "https://github.com/CarlosSanabriaM"
+        - icon: fab fa-linkedin
+          url: "https://www.linkedin.com/in/CarlosSanabriaM"
+#      customIcons:
+#        - icon: /fav.png
+#          url: "https://example.com"
+
+  # Footer
+  footer:
+    recentPosts: false # TODO: Uncomment when posts are available
+    socialNetworks:
+      github: "https://github.com/CarlosSanabriaM"
+      linkedin: "https://www.linkedin.com/in/CarlosSanabriaM"
+      #twitter: https://twitter.com
+      #instagram: https://instagram.com
+      #facebook: https://facebook.com
