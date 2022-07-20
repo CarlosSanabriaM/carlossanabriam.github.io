@@ -114,10 +114,17 @@ params:
       url: "https://drive.google.com/file/d/1t1belGdS1F8FjLF4mlUyTauDK4P43VQC/view?usp=sharing"
     socialLinks:
       fontAwesomeIcons:
-        - icon: fab fa-github
+        # https://fontawesome.com/v5/search
+        # Font Awesome icons are designed on grid and share a consistent height.
+        # But they vary in width depending on how wide or narrow each symbol is.
+        # If you prefer to work with icons that have a consistent width, adding fa-fw will render each icon using the same width.
+        # https://fontawesome.com/docs/web/style/fixed-width
+        - icon: fab fa-github fa-fw
           url: "https://github.com/CarlosSanabriaM"
-        - icon: fab fa-linkedin
+        - icon: fab fa-linkedin fa-fw
           url: "https://www.linkedin.com/in/CarlosSanabriaM"
+        - icon: fas fa-code-branch fa-fw
+          url: "https://github.com/CarlosSanabriaM/carlossanabriam.github.io"
 #      customIcons:
 #        - icon: /fav.png
 #          url: "https://example.com"
