@@ -129,6 +129,42 @@ params:
 #        - icon: /fav.png
 #          url: "https://example.com"
 
+  # About
+  about:
+    enable: true
+    title: "About Me"
+    image: "/images/me.jpg"
+    content: |-
+      I am a Software Engineer with a huge passion for data and analytics, and the Cloud computing ecosystem.
+      I truly believe in the DevOps culture and its benefits.
+      I cannot imagine a project without CI/CD, automation or monitoring.
+      I also have a strong interest in the IoT world and its application in multiple fields.
+
+      I am currently working as a Big Data Engineer at [Accenture](https://www.accenture.com/),
+      where I have designed, implemented, deployed, monitored and maintained multiple streaming applications
+      for processing data in real time in the AWS cloud.
+      
+      I was honored with the [Final Degree Award](https://drive.google.com/file/d/1krHMfnayADHeWNg5gBrqJwiVuEcmiIC1/view?usp=sharing)
+      for the highest GPA of the Software Engineer Degree.
+    skills:
+      enable: true
+      title: "Here are a few technologies I have been working with a lot recently:"
+      items:
+        - "Flink"
+        - "Kafka"
+        - "Redis"
+        - "ArangoDB"
+        - "EMR"
+        - "EKS"
+        - "Hadoop Yarn"
+        - "Kubernetes"
+        - "Ansible"
+        - "Docker"
+        - "Grafana"
+        - "Kibana"
+        - "Java"
+        - "Python"
+
   # Footer
   footer:
     recentPosts: false # TODO: Uncomment when posts are available
