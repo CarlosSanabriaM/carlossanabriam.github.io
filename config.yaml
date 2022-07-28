@@ -229,6 +229,28 @@ params:
         content: |
           * __Installed__ diverse __software__ packages and __repaired__ multiple __hardware__ equipments. __Managed the inventory__. __Solved problems__ of various kinds, both from students and teachers (where stood out the problems related to the __Active Directory__).
 
+  # Education
+  education:
+    enable: true
+    items:
+      - title: "Software Engineer Degree"
+        school:
+          name: "Universidad de Oviedo"
+          url: "https://www.uniovi.es/-/grado-en-ingenieria-informatica-del-software-2014"
+        date: "2015–2019"
+        GPA: "9.312 out of 10 · 3.66 out of 4"
+        content: |-
+          * __28 Honor Distinctions__
+          * __Final Degree Award for the highest GPA__
+          * __Grace Hooper Award for academic excellence__
+          * __Final Degree Project__: Web application for the classification of text documents and the generation of extractive summaries
+            * [Source code](https://github.com/CarlosSanabriaM/degree-final-project)
+            * [Website](http://topics-and-summary-web-front.herokuapp.com)
+        featuredLink:
+          enable: true
+          name: "Final Degree Award"
+          url: "https://drive.google.com/file/d/1krHMfnayADHeWNg5gBrqJwiVuEcmiIC1/view?usp=sharing"
+
   # Footer
   footer:
     recentPosts: false # TODO: Uncomment when posts are available
