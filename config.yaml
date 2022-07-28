@@ -220,6 +220,15 @@ params:
           * Developed a library for the __identification of topics__ present in a collection of documents, the __classification of documents__ in those topics, and the __generation of extractive text summaries__, using Natural Language Processing techniques (__NLP__), by means of supervised and unsupervised learning, in the __Python__ programming language.
           * Developed a __REST API in Flask__ and a __frontend in Angular__ which eased the interaction with a collection of documents.
 
+      - job: "Computer Science Intern"
+        company: "Universidad de Oviedo"
+        companyUrl: "https://www.uniovi.es"
+        date: "Oct 2017 - May 2018"
+        info:
+          enable: false
+        content: |
+          * __Installed__ diverse __software__ packages and __repaired__ multiple __hardware__ equipments. __Managed the inventory__. __Solved problems__ of various kinds, both from students and teachers (where stood out the problems related to the __Active Directory__).
+
   # Footer
   footer:
     recentPosts: false # TODO: Uncomment when posts are available
