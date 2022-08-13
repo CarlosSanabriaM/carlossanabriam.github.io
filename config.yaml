@@ -251,6 +251,21 @@ params:
           name: "Final Degree Award"
           url: "https://drive.google.com/file/d/1krHMfnayADHeWNg5gBrqJwiVuEcmiIC1/view?usp=sharing"
 
+  # Achievements
+  achievements:
+    enable: true
+    items:
+      - title: Accenture TechStar 2022
+        content: |-
+          I was selected by Accenture to take part of the select TechStar program,
+          in which I was able to reinforce my technical, soft and management skills.
+        url: "https://www.linkedin.com/pulse/accenture-technology-stars-2018-sam-liew/"
+      - title: Final Degree Award
+        content: I received this award for achieving the highest GPA of my promotion in the Software Engineer Degree.
+        url: "https://drive.google.com/file/d/1krHMfnayADHeWNg5gBrqJwiVuEcmiIC1/view?usp=sharing"
+      - title: Grace Hooper Award
+        content: I received this award for my academic excellence in the Software Engineer Degree.
+
   # Footer
   footer:
     recentPosts: false # TODO: Uncomment when posts are available
