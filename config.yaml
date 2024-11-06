@@ -268,7 +268,7 @@ params:
 
   # Footer
   footer:
-    recentPosts: false # TODO: Uncomment when posts are available
+    #recentPosts: false # TODO: Uncomment when posts are available
     socialNetworks:
       github: "https://github.com/CarlosSanabriaM"
       linkedin: "https://www.linkedin.com/in/CarlosSanabriaM"
