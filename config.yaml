@@ -241,7 +241,7 @@ params:
         content: |-
           * __28 Honor Distinctions__
           * __Final Degree Award for the highest GPA__
-          * __Grace Hooper Award for academic excellence__
+          * __Grace Hopper Award for academic excellence__
           * __Final Degree Project__: Web application for the classification of text documents and the generation of extractive summaries
             * [Source code](https://github.com/CarlosSanabriaM/degree-final-project)
             * [Website](http://topics-and-summary-web-front.herokuapp.com)
@@ -262,7 +262,7 @@ params:
       - title: Final Degree Award
         content: I received this award for achieving the highest GPA of my promotion in the Software Engineer Degree.
         url: "https://drive.google.com/file/d/1krHMfnayADHeWNg5gBrqJwiVuEcmiIC1/view?usp=sharing"
-      - title: Grace Hooper Award
+      - title: Grace Hopper Award
         content: I received this award for my academic excellence in the Software Engineer Degree.
 
   # Footer
