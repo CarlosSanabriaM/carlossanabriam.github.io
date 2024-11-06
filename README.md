@@ -122,6 +122,12 @@ After both actions have finished, we should be able to browse our website at htt
 With our Continuous Deployment pipeline already set up, we can make changes to the website source code and deploy them
 by simply pushing the changes to the `main` branch.
 
+## How to update the Git submodule of the Hugo Profile theme
+This will update the Hugo Profile theme to its latest version:
+```shell
+git submodule update --remote --merge
+```
+
 __Happy coding! :)__
 
 ## References
