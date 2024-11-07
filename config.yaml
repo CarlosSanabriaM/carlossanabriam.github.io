@@ -105,10 +105,11 @@ params:
   hero:
     enable: true
     intro: "Hi, my name is"
-    title: "Carlos."
-    subtitle: "I build data platforms"
-    content: "A passionate big data engineer.
-        I tend to make use of modern technologies to implement, test, deploy, automate and maintain data driven apps."
+    title: "Carlos"
+    subtitle: "A passionate Data Engineer"
+    content: |-
+        I use modern technologies to design, implement, test, deploy, monitor and maintain data driven apps.
+        I am specialized in streaming processing and Cloud computing.
     image: /images/hero.png
     socialLinks:
       fontAwesomeIcons:
@@ -133,35 +134,46 @@ params:
     title: "About Me"
     image: "/images/me.jpg"
     content: |-
-      I am a Software Engineer with a huge passion for data and analytics, and the Cloud computing ecosystem.
-      I truly believe in the DevOps culture and its benefits.
-      I cannot imagine a project without CI/CD, automation or monitoring.
-      I also have a strong interest in the IoT world and its application in multiple fields.
+      I am a Software Engineer with a strong passion for data and analytics, and the Cloud computing ecosystem.
+      I have a solid background in data streaming processing, particularly with Apache Flink, in the AWS cloud.
+      I am a strong advocate of the DevOps culture and its benefits, and I cannot imagine a project without CI/CD, automation or monitoring.
+      I also have a keen interest in the IoT world and its applications across various fields.
 
-      I am currently working as a Big Data Engineer at [Accenture](https://www.accenture.com),
-      where I have designed, implemented, deployed, monitored and maintained multiple streaming applications
-      for processing data in real time in the AWS cloud.
+      I have +5 years of experience in the data ecosystem, and I am currently working as a Data Engineer at
+      [Openbank](https://www.opendigitalservices.com/) in Spain. I also have some experience in leading
+      development teams and teaching online classes.
       
       I was honored with the [Final Degree Award](https://drive.google.com/file/d/1krHMfnayADHeWNg5gBrqJwiVuEcmiIC1/view?usp=sharing)
-      for the highest GPA of the Software Engineer Degree.
+      for the best academic record in the Software Engineer Degree.
+
+      I’m a very curious person, always eager to learn new things and improve myself every day.
+      I am very disciplined with my habits, and I always try to do my best to achieve my goals.
+
+      As for my hobbies, I really enjoy staying active and practicing sports, especially going to the gym,
+      but I am always open to exploring new sports whenever I can. I like spending time with my friends and my girlfriend,
+      watching football, listening to music and podcasts, playing video games, and collecting vinyl records and anime statues.
+      I am also an avid reader, particularly of personal development books, manga, and video game magazines.
+      I love traveling, experiencing diverse cultures and meeting new people.
     skills:
       enable: true
-      title: "Here are a few technologies I have been working with a lot recently:"
+      title: "These are my essential skills and the technologies in which I have the most expertise:"
       items:
-        - "Flink"
-        - "Kafka"
-        - "Redis"
-        - "ArangoDB"
-        - "EMR"
-        - "EKS"
-        - "Hadoop Yarn"
-        - "Kubernetes"
-        - "Ansible"
-        - "Docker"
-        - "Grafana"
-        - "Kibana"
+        - "Spanish (native)"
+        - "[English (C1)](https://drive.google.com/file/d/1mXeXpdDFqLQ_1aZJO9-XDZZ3W7lqiASE/view?usp=sharing)"
         - "Java"
         - "Python"
+        - "Flink"
+        - "Kafka"
+        - "Iceberg"
+        - "Redis"
+        - "Docker"
+        - "Kubernetes"
+        - "Ansible"
+        - "Vagrant"
+        - "Grafana"
+        - "Kibana"
+        - "Spring"
+        - "AWS"
 
   # Experience
   experience:
