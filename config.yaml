@@ -243,7 +243,7 @@ params:
       - title: "Software Engineer Degree"
         school:
           name: "Universidad de Oviedo"
-          url: "https://www.uniovi.es/-/grado-en-ingenieria-informatica-del-software-2014"
+          url: "https://ingenieriainformatica.uniovi.es/infoacademica/grado"
         date: "2015–2019"
         GPA: "9.312 out of 10 · 3.66 out of 4"
         content: |-
