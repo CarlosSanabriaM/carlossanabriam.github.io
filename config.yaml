@@ -273,6 +273,20 @@ params:
       - title: Grace Hopper Award
         content: I received this award for my academic excellence in the Software Engineer Degree.
 
+  # Contact
+  contact:
+    enable: true
+    # title: "Custom Name"
+    content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+    btnName: Mail me
+    btnLink: mailto:sanabria.miranda.carlos@gmail.com
+    # formspree:
+    #   enable: true # `contact.email` value will be ignored
+    #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
+    #   emailCaption: "Enter your email address"
+    #   messageCaption: "Enter your message here"
+    #   messageRows: 5
+
   # Footer
   footer:
     #recentPosts: false # TODO: Uncomment when posts are available
