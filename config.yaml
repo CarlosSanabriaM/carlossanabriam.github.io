@@ -178,63 +178,62 @@ params:
   # Experience
   experience:
     enable: true
-    items:
-      - job: "Advanced App Engineering Senior Analyst - Big Data"
-        company: "Accenture"
+    companies:
+      - company: "Accenture"
         companyUrl: "https://www.accenture.com"
-        date: "Dic 2020 - Present"
-        info:
-          enable: false
-        content: |
-          * Developed and __end-to-end solution__ for __monitoring__ __Flink__ and __EMR__; which includes the collection, processing and loading of Flink/EMR __metrics__ and __logs__; and the creation of __dashboards__ in __Grafana__ and __Kibana__ for their visualization and analysis.
-          * __Automated__ the __configuration__ of the __EMR__ clusters through __Ansible__, following a __GitOps__ philosophy.
-          * Implemented a __Continuous Delivery__ pipeline for the deployment of __Flink__ jobs in __EMR__, based on the __declarative__ paradigm.
-          * Developed a __proof of concept__ of the new __Flink SQL__ version, to __homologate__ it and promote its usage within the project.
-          * Improved and __evolved__ a __Java framework__ based on __Flink__, including abstractions over the new __Flink SQL__ API version, which __simplified the development__ of streaming applications focused on the __joins__ between streams of events.
-          * __Reduced__ in a __60\%__ the __costs__ of the __AWS infrastructure__, due to the __analysis__ of the __consumptions__ of the __EMR__ and __ElastiCache__ services, and the __optimization__ of the used __instances__ (number and type of instances, as well as the use of __spot__ instances).
-          * Kept a __close contact__ with the development teams of the __client__, focused on the decision making and continuous improvement.
-          * Made __guards__ focused on the __maintenance__ of the __production__ applications, __solving__ numerous __incidents__.
-          * Was __selected__ by __Accenture__ to take part of the __TechStar__ program (in which  __less than 1%__ of the analysts and consultants of Accenture Technology can participate), and in which I was able to __reinforce__ my __technical__, __soft__ and __management skills__.
-          * __Interviewed__ __3 people__ to choose a new member for our project __development team__ (technical interviews).
-          * __Lead__ a __team of 3 developers__ to carry out and deploy multiple __projects__ developed in __Flink__.
-          * __Participated__ in a __RFP__ (Request For Proposals) for one of the largest insurance companies in the market, in which I __designed__ a __serverless microservices architecture__ on __AWS__, with high and low level diagrams, which was a complete __success__, given the fact that __the project was awarded to Accenture__, and we received the __direct greetings from the CDO__ of the insurance company.
+        jobs:
+          - job: "Advanced App Engineering Senior Analyst - Big Data"
+            date: "Dic 2020 - Present"
+            info:
+              enable: false
+            content: |
+              * Developed and __end-to-end solution__ for __monitoring__ __Flink__ and __EMR__; which includes the collection, processing and loading of Flink/EMR __metrics__ and __logs__; and the creation of __dashboards__ in __Grafana__ and __Kibana__ for their visualization and analysis.
+              * __Automated__ the __configuration__ of the __EMR__ clusters through __Ansible__, following a __GitOps__ philosophy.
+              * Implemented a __Continuous Delivery__ pipeline for the deployment of __Flink__ jobs in __EMR__, based on the __declarative__ paradigm.
+              * Developed a __proof of concept__ of the new __Flink SQL__ version, to __homologate__ it and promote its usage within the project.
+              * Improved and __evolved__ a __Java framework__ based on __Flink__, including abstractions over the new __Flink SQL__ API version, which __simplified the development__ of streaming applications focused on the __joins__ between streams of events.
+              * __Reduced__ in a __60\%__ the __costs__ of the __AWS infrastructure__, due to the __analysis__ of the __consumptions__ of the __EMR__ and __ElastiCache__ services, and the __optimization__ of the used __instances__ (number and type of instances, as well as the use of __spot__ instances).
+              * Kept a __close contact__ with the development teams of the __client__, focused on the decision making and continuous improvement.
+              * Made __guards__ focused on the __maintenance__ of the __production__ applications, __solving__ numerous __incidents__.
+              * Was __selected__ by __Accenture__ to take part of the __TechStar__ program (in which  __less than 1%__ of the analysts and consultants of Accenture Technology can participate), and in which I was able to __reinforce__ my __technical__, __soft__ and __management skills__.
+              * __Interviewed__ __3 people__ to choose a new member for our project __development team__ (technical interviews).
+              * __Lead__ a __team of 3 developers__ to carry out and deploy multiple __projects__ developed in __Flink__.
+              * __Participated__ in a __RFP__ (Request For Proposals) for one of the largest insurance companies in the market, in which I __designed__ a __serverless microservices architecture__ on __AWS__, with high and low level diagrams, which was a complete __success__, given the fact that __the project was awarded to Accenture__, and we received the __direct greetings from the CDO__ of the insurance company.
 
-      - job: "Advanced App Engineering Analyst - Big Data"
-        company: "Accenture"
-        companyUrl: "https://www.accenture.com"
-        date: "May 2019 - Dic 2020"
-        info:
-          enable: false
-        content: |
-          * Designed and implemented a __Java framework based on Apache Flink__ which eased the development of __Big Data applications for processing events in real time__, that abstracts the following components: security configurations, read/write events from/to Kafka, N-N joins among events, generation of custom metrics, timestamps management, ...
-          * Implemented and deployed in __AWS__ multiple __streaming applications__ employing the previous framework, using services such as __EMR, S3, ElastiCache, EC2 and Certificate Manager__, and technologies such as __Kafka, Redis, CouchBase y Hadoop YARN__.
-          * Implemented multiple __scripts in Python and Bash__ for automating processes.
-          * Contributed to the adoption of a __testing culture__ focused on specification-based techniques (__Equivalent Class Partitioning__) and structure-based techniques (__MCDC - Modified condition/decision coverage__).
-          * Took part of a __multidisciplinary development team__, guided by __Agile methodologies__, and focused in the __continuous integration__ (version control with __Git and GitLab__, __code reviews__ through Merge Requests, __Jenkins__, __SonarQube__ and __Artifactory__).
+          - job: "Advanced App Engineering Analyst - Big Data"
+            date: "May 2019 - Dic 2020"
+            info:
+              enable: false
+            content: |
+              * Designed and implemented a __Java framework based on Apache Flink__ which eased the development of __Big Data applications for processing events in real time__, that abstracts the following components: security configurations, read/write events from/to Kafka, N-N joins among events, generation of custom metrics, timestamps management, ...
+              * Implemented and deployed in __AWS__ multiple __streaming applications__ employing the previous framework, using services such as __EMR, S3, ElastiCache, EC2 and Certificate Manager__, and technologies such as __Kafka, Redis, CouchBase y Hadoop YARN__.
+              * Implemented multiple __scripts in Python and Bash__ for automating processes.
+              * Contributed to the adoption of a __testing culture__ focused on specification-based techniques (__Equivalent Class Partitioning__) and structure-based techniques (__MCDC - Modified condition/decision coverage__).
+              * Took part of a __multidisciplinary development team__, guided by __Agile methodologies__, and focused in the __continuous integration__ (version control with __Git and GitLab__, __code reviews__ through Merge Requests, __Jenkins__, __SonarQube__ and __Artifactory__).
 
-      - job: "Artificial Intelligence Intern"
-        company: "Accenture"
-        companyUrl: "https://www.accenture.com"
-        date: "Feb 2019 - May 2019"
-        featuredLink:
-          enable: true
-          name: "Project website"
-          url: "http://topics-and-summary-web-front.herokuapp.com"
-        info:
-          enable: true
-          content: The project I worked on in this internship was presented as my final degree project.
-        content: |
-          * Developed a library for the __identification of topics__ present in a collection of documents, the __classification of documents__ in those topics, and the __generation of extractive text summaries__, using Natural Language Processing techniques (__NLP__), by means of supervised and unsupervised learning, in the __Python__ programming language.
-          * Developed a __REST API in Flask__ and a __frontend in Angular__ which eased the interaction with a collection of documents.
+          - job: "Intern in Artificial Intelligence"
+            date: "Feb 2019 - May 2019"
+            featuredLink:
+              enable: true
+              name: "Project website"
+              url: "http://topics-and-summary-web-front.herokuapp.com"
+            info:
+              enable: true
+              content: The project I worked on in this internship was presented as my final degree project.
+            content: |
+              * Developed a library for the __identification of topics__ present in a collection of documents, the __classification of documents__ in those topics, and the __generation of extractive text summaries__, using Natural Language Processing techniques (__NLP__), by means of supervised and unsupervised learning, in the __Python__ programming language.
+              * Developed a __REST API in Flask__ and a __frontend in Angular__ which eased the interaction with a collection of documents.
 
-      - job: "Computer Science Intern"
-        company: "Universidad de Oviedo"
+      - company: "UniOvi"
         companyUrl: "https://www.uniovi.es"
-        date: "Oct 2017 - May 2018"
-        info:
-          enable: false
-        content: |
-          * __Installed__ diverse __software__ packages and __repaired__ multiple __hardware__ equipments. __Managed the inventory__. __Solved problems__ of various kinds, both from students and teachers (where stood out the problems related to the __Active Directory__).
+        jobs:
+          - job: "Computer Science Intern"
+            date: "Oct 2017 - May 2018"
+            info:
+              enable: true
+              content: Universidad de Oviedo
+            content: |
+              * __Installed__ diverse __software__ packages and __repaired__ multiple __hardware__ equipments. __Managed the inventory__. __Solved problems__ of various kinds, both from students and teachers (where stood out the problems related to the __Active Directory__).
 
   # Education
   education:
