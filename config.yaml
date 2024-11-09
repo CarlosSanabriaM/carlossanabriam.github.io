@@ -264,31 +264,37 @@ params:
       - title: AWS Certified Cloud Practitioner
         url: "https://www.credly.com/badges/ac01d725-09f7-474c-980b-7d23c952a202/public_url"
         image: /images/certifications/aws-certified-cloud-practitioner.png
+        imageWidthPercentage: 50%
         content: July 2020
       
       - title: AWS Certified Solutions Architect – Associate
         url: "https://www.credly.com/badges/cc930e4d-3b8b-4c81-b59a-068efffc6778/public_url"
         image: /images/certifications/aws-certified-solutions-architect-associate.png
+        imageWidthPercentage: 50%
         content: March 2021
       
       - title: AWS Certified Data Analytics – Specialty
         url: "https://www.credly.com/badges/a25d383c-e9dc-4615-87c0-3248cca98b1b/public_url"
         image: /images/certifications/aws-certified-data-analytics-specialty.png
+        imageWidthPercentage: 50%
         content: July 2021
       
       - title: "Microsoft Certified: Azure Fundamentals"
         url: "https://www.credly.com/badges/11094dde-fba8-4151-97a4-620312171991/public_url"
         image: /images/certifications/microsoft-certified-azure-fundamentals.png
+        imageWidthPercentage: 50%
         content: November 2020
       
       - title: "Microsoft Certified: Azure Data Fundamentals"
         url: "https://www.credly.com/badges/27ef3e46-2484-4337-8edb-34162d412e60/public_url"
         image: /images/certifications/microsoft-certified-azure-data-fundamentals.png
+        imageWidthPercentage: 50%
         content: January 2021
       
       - title: Certified Kubernetes Application Developer
         url: "https://www.credly.com/badges/641ae1d8-6742-4fd0-887a-76cf394114c2/public_url"
         image: /images/certifications/ckad-certified-kubernetes-application-developer.png
+        imageWidthPercentage: 50%
         content: April 2022
 
       - title: Accenture TechStar 2022
