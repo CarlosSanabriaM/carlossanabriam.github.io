@@ -239,15 +239,15 @@ params:
   education:
     enable: true
     items:
-      - title: "Software Engineer Degree"
+      - title: "Bachelor's Degree in Software Engineering"
         school:
           name: "Universidad de Oviedo"
           url: "https://ingenieriainformatica.uniovi.es/infoacademica/grado"
         date: "2015–2019"
         GPA: "9.312 out of 10 · 3.66 out of 4"
         content: |-
-          * __28 Honor Distinctions__
-          * __Final Degree Award for the highest GPA__
+          * __Awarded 28 honors__
+          * __Final Degree Award for best academic record__
           * __Grace Hopper Award for academic excellence__
           * __Final Degree Project__: Web application for the classification of text documents and the generation of extractive summaries
             * [Source code](https://github.com/CarlosSanabriaM/degree-final-project)
