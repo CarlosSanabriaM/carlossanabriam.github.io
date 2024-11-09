@@ -1,6 +1,6 @@
-baseURL: "https://carlossanabriam.github.io"
-languageCode: "en-us"
-title: "Carlos Sanabria Miranda"
+baseURL: https://carlossanabriam.github.io
+languageCode: en-us
+title: Carlos Sanabria Miranda
 theme: hugo-profile
 
 # Pagination (https://gohugo.io/templates/pagination/)
@@ -51,12 +51,12 @@ markup:
 
 params:
   # Open Graph (https://gohugo.io/templates/internal/#open-graph) and Twitter Cards (https://gohugo.io/templates/internal/#twitter-cards) metadata
-  title: "Carlos Sanabria Miranda"
+  title: Carlos Sanabria Miranda
   description: My personal website
 #  images: # TODO
 #    - site-feature-image.jpg
   # staticPath: ""  # The path to serve the static files from
-  favicon: "/fav.png"
+  favicon: /fav.png
 
   theme:
     disableThemeToggle: false
@@ -104,9 +104,9 @@ params:
   # Hero
   hero:
     enable: true
-    intro: "Hi, my name is"
-    title: "Carlos"
-    subtitle: "A passionate Data Engineer"
+    intro: Hi, my name is
+    title: Carlos
+    subtitle: A passionate Data Engineer
     content: |-
         I use modern technologies to design, implement, test, deploy, monitor and maintain data driven apps.
         I am specialized in streaming processing and Cloud computing.
@@ -119,11 +119,11 @@ params:
         # If you prefer to work with icons that have a consistent width, adding fa-fw will render each icon using the same width.
         # https://fontawesome.com/docs/web/style/fixed-width
         - icon: fab fa-github fa-fw
-          url: "https://github.com/CarlosSanabriaM"
+          url: https://github.com/CarlosSanabriaM
         - icon: fab fa-linkedin fa-fw
-          url: "https://www.linkedin.com/in/CarlosSanabriaM"
+          url: https://www.linkedin.com/in/CarlosSanabriaM
         - icon: fas fa-code-branch fa-fw
-          url: "https://github.com/CarlosSanabriaM/carlossanabriam.github.io"
+          url: https://github.com/CarlosSanabriaM/carlossanabriam.github.io
 #      customIcons:
 #        - icon: /fav.png
 #          url: "https://example.com"
@@ -131,8 +131,8 @@ params:
   # About
   about:
     enable: true
-    title: "About Me"
-    image: "/images/me.jpg"
+    title: About Me
+    image: /images/me.jpg
     content: |-
       I am a Software Engineer with a strong passion for data and analytics, and the Cloud computing ecosystem.
       I have a solid background in data streaming processing, particularly with Apache Flink, in the AWS cloud.
@@ -158,32 +158,32 @@ params:
       enable: true
       title: "These are my essential skills and the technologies in which I have the most expertise:"
       items:
-        - "Spanish (native)"
+        - Spanish (native)
         - "[English (C1)](https://drive.google.com/file/d/1mXeXpdDFqLQ_1aZJO9-XDZZ3W7lqiASE/view?usp=sharing)"
-        - "Java"
-        - "Python"
-        - "Flink"
-        - "Kafka"
-        - "Iceberg"
-        - "Redis"
-        - "Docker"
-        - "Kubernetes"
-        - "Ansible"
-        - "Vagrant"
-        - "Grafana"
-        - "Kibana"
-        - "Spring"
-        - "AWS"
+        - Java
+        - Python
+        - Flink
+        - Kafka
+        - Iceberg
+        - Redis
+        - Docker
+        - Kubernetes
+        - Ansible
+        - Vagrant
+        - Grafana
+        - Kibana
+        - Spring
+        - AWS
 
   # Experience
   experience:
     enable: true
     companies:
-      - company: "Openbank"
-        companyUrl: "https://www.opendigitalservices.com/"
+      - company: Openbank
+        companyUrl: https://www.opendigitalservices.com/
         jobs:
-          - job: "Associate Manager I - Big Data - Data Lake"
-            date: "May 2023 - Present"
+          - job: Associate Manager I - Big Data - Data Lake
+            date: May 2023 - Present
             info:
               enable: false
             content: |
@@ -193,11 +193,11 @@ params:
               * __Improved__ the internal __flow orchestrator__ (__Spring Boot__ + __Angular__) and helped make it cloud provider agnostic.
               * __Technologies:__ Java, Scala, Flink, Iceberg, Avro, Schema Registry, Spring, AWS (Kinesis, Glue, Lambda, CloudWatch, CloudFormation).
 
-      - company: "UAX"
-        companyUrl: "https://www.uax.com/"
+      - company: UAX
+        companyUrl: https://www.uax.com/
         jobs:
-          - job: "Associate Professor"
-            date: "Oct. 2023 - Present"
+          - job: Associate Professor
+            date: Oct. 2023 - Present
             info:
               enable: true
               content: Universidad Alfonso X el Sabio
@@ -205,11 +205,11 @@ params:
               * Professor of __Python__ in the subject __Programming Languages__ (SM142050) of the [Master's Degree in Artificial Intelligence](https://www.uax.com/titulaciones/master-inteligencia-artificial).
               * Professor and coordinator of the subject __Cloud Software Development and DevOps__ (C0342506) of the [Bachelor's Degree in Data Science and Artificial Intelligence](https://www.uax.com/titulaciones/grado-online-en-ciencia-de-datos-e-inteligencia-artificial).
 
-      - company: "Accenture"
-        companyUrl: "https://www.accenture.com"
+      - company: Accenture
+        companyUrl: https://www.accenture.com
         jobs:
-          - job: "Team Lead / Consultant - Big Data & Cloud"
-            date: "Dec. 2022 - May 2023"
+          - job: Team Lead / Consultant - Big Data & Cloud
+            date: Dec. 2022 - May 2023
             info:
               enable: false
             content: |
@@ -218,8 +218,8 @@ params:
               * __Led the training__ in Python, PySpark, and AWS for a group of __13 people__ (junior and senior profiles). __Ensured__ that all __obtained__ the __AWS Certified Cloud Practitioner__ certification. __Integrated them into the project__ and __facilitated their collaboration and growth__.
               * Acted as a __mentor__ for 3 people, __internship supervisor__ for 3 students, and __thesis advisor__ for one Bachelor's thesis.
 
-          - job: "Advanced App Engineering Senior Analyst - Big Data"
-            date: "Dec. 2020 - Dec. 2022"
+          - job: Advanced App Engineering Senior Analyst - Big Data
+            date: Dec. 2020 - Dec. 2022
             info:
               enable: false
             content: |
@@ -238,8 +238,8 @@ params:
               * Was __selected__ by __Accenture__ to participate in the __exclusive TechStar program__, where I had the opportunity to further develop my technical, interpersonal, and management skills.
                 * __Less than 1%__ of the analysts and consultants of Accenture Technology can participate in this program.
 
-          - job: "Advanced App Engineering Analyst - Big Data"
-            date: "May 2019 - Dec. 2020"
+          - job: Advanced App Engineering Analyst - Big Data
+            date: May 2019 - Dec. 2020
             info:
               enable: false
             content: |
@@ -249,12 +249,12 @@ params:
               * Automated numerous internal processes using __Python and Bash scripts__.
               * Contributed to the adoption of a __testing culture__ focused on specification-based techniques (__Equivalent Class Partitioning__) and structure-based techniques (__MCDC - Modified condition/decision coverage__).
 
-          - job: "Artificial Intelligence Intern"
-            date: "Feb. 2019 - May 2019"
+          - job: Artificial Intelligence Intern
+            date: Feb. 2019 - May 2019
             featuredLink:
               enable: true
-              name: "Project website"
-              url: "http://topics-and-summary-web-front.herokuapp.com"
+              name: Project website
+              url: http://topics-and-summary-web-front.herokuapp.com
             info:
               enable: true
               content: The project I worked on in this internship was presented as my final degree project.
@@ -262,11 +262,11 @@ params:
               * Developed a __Python library__ for __topic identification__ in a collection of documents, the __classification of documents__ into those topics, and the __generation of extractive text summaries__, using __NLP__ (Natural Language Processing) techniques.
               * Developed a __REST API in Flask__ and a __frontend in Angular__, which eased the interaction with a collection of documents.
 
-      - company: "UniOvi"
-        companyUrl: "https://www.uniovi.es"
+      - company: UniOvi
+        companyUrl: https://www.uniovi.es
         jobs:
-          - job: "Computer Science Intern"
-            date: "Oct. 2017 - May 2018"
+          - job: Computer Science Intern
+            date: Oct. 2017 - May 2018
             info:
               enable: true
               content: Universidad de Oviedo
@@ -277,12 +277,12 @@ params:
   education:
     enable: true
     items:
-      - title: "Bachelor's Degree in Software Engineering"
+      - title: Bachelor's Degree in Software Engineering
         school:
-          name: "Universidad de Oviedo"
-          url: "https://ingenieriainformatica.uniovi.es/infoacademica/grado"
-        date: "2015–2019"
-        GPA: "9.312 out of 10 · 3.66 out of 4"
+          name: Universidad de Oviedo
+          url: https://ingenieriainformatica.uniovi.es/infoacademica/grado
+        date: 2015–2019
+        GPA: 9.312 out of 10 · 3.66 out of 4
         content: |-
           * __Awarded 28 honors__
           * __Final Degree Award for best academic record__
@@ -292,45 +292,45 @@ params:
             * [Website](http://topics-and-summary-web-front.herokuapp.com)
         featuredLink:
           enable: true
-          name: "Final Degree Award"
-          url: "https://drive.google.com/file/d/1krHMfnayADHeWNg5gBrqJwiVuEcmiIC1/view?usp=sharing"
+          name: Final Degree Award
+          url: https://drive.google.com/file/d/1krHMfnayADHeWNg5gBrqJwiVuEcmiIC1/view?usp=sharing
 
   # Achievements
   achievements:
     enable: true
     items:
       - title: AWS Certified Cloud Practitioner
-        url: "https://www.credly.com/badges/ac01d725-09f7-474c-980b-7d23c952a202/public_url"
+        url: https://www.credly.com/badges/ac01d725-09f7-474c-980b-7d23c952a202/public_url
         image: /images/certifications/aws-certified-cloud-practitioner.png
         imageWidthPercentage: 50%
         content: July 2020
       
       - title: AWS Certified Solutions Architect – Associate
-        url: "https://www.credly.com/badges/cc930e4d-3b8b-4c81-b59a-068efffc6778/public_url"
+        url: https://www.credly.com/badges/cc930e4d-3b8b-4c81-b59a-068efffc6778/public_url
         image: /images/certifications/aws-certified-solutions-architect-associate.png
         imageWidthPercentage: 50%
         content: March 2021
       
       - title: AWS Certified Data Analytics – Specialty
-        url: "https://www.credly.com/badges/a25d383c-e9dc-4615-87c0-3248cca98b1b/public_url"
+        url: https://www.credly.com/badges/a25d383c-e9dc-4615-87c0-3248cca98b1b/public_url
         image: /images/certifications/aws-certified-data-analytics-specialty.png
         imageWidthPercentage: 50%
         content: July 2021
       
       - title: "Microsoft Certified: Azure Fundamentals"
-        url: "https://www.credly.com/badges/11094dde-fba8-4151-97a4-620312171991/public_url"
+        url: https://www.credly.com/badges/11094dde-fba8-4151-97a4-620312171991/public_url
         image: /images/certifications/microsoft-certified-azure-fundamentals.png
         imageWidthPercentage: 50%
         content: November 2020
       
       - title: "Microsoft Certified: Azure Data Fundamentals"
-        url: "https://www.credly.com/badges/27ef3e46-2484-4337-8edb-34162d412e60/public_url"
+        url: https://www.credly.com/badges/27ef3e46-2484-4337-8edb-34162d412e60/public_url
         image: /images/certifications/microsoft-certified-azure-data-fundamentals.png
         imageWidthPercentage: 50%
         content: January 2021
       
       - title: Certified Kubernetes Application Developer
-        url: "https://www.credly.com/badges/641ae1d8-6742-4fd0-887a-76cf394114c2/public_url"
+        url: https://www.credly.com/badges/641ae1d8-6742-4fd0-887a-76cf394114c2/public_url
         image: /images/certifications/ckad-certified-kubernetes-application-developer.png
         imageWidthPercentage: 50%
         content: April 2022
@@ -339,11 +339,11 @@ params:
         content: |-
           I was selected by Accenture to participate in the exclusive TechStar program,
           where I had the opportunity to further develop my technical, interpersonal, and management skills.
-        url: "https://www.linkedin.com/pulse/accenture-technology-stars-2018-sam-liew/"
+        url: https://www.linkedin.com/pulse/accenture-technology-stars-2018-sam-liew/
 
       - title: Final Degree Award
         content: I received this award for achieving the best academic record (the highest GPA) in my cohort for the Bachelor's Degree in Software Engineering.
-        url: "https://drive.google.com/file/d/1krHMfnayADHeWNg5gBrqJwiVuEcmiIC1/view?usp=sharing"
+        url: https://drive.google.com/file/d/1krHMfnayADHeWNg5gBrqJwiVuEcmiIC1/view?usp=sharing
 
       - title: Grace Hopper Award
         content: I received this award in recognition of my academic excellence in the Bachelor's Degree in Software Engineering.
@@ -366,8 +366,8 @@ params:
   footer:
     #recentPosts: false # TODO: Uncomment when posts are available
     socialNetworks:
-      github: "https://github.com/CarlosSanabriaM"
-      linkedin: "https://www.linkedin.com/in/CarlosSanabriaM"
+      github: https://github.com/CarlosSanabriaM
+      linkedin: https://www.linkedin.com/in/CarlosSanabriaM
       #twitter: https://twitter.com
       #instagram: https://instagram.com
       #facebook: https://facebook.com
