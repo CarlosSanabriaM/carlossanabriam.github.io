@@ -187,7 +187,7 @@ params:
             info:
               enable: false
             content: |
-              * Was a member of the __platform team__, a __cross-functional group__ responsible for managing the __data lake__ and developing and maintaining various __data tools__ to support and enhance the __data infrastructure__, as well as the other __data teams__.
+              * Was a member of the __platform team__, a __data engineering group__ responsible for managing the __data lake__ and developing and maintaining various __data tools__ to support and enhance the __data infrastructure__, as well as other __data teams__.
               * __Improved__ and __optimized__ a __Flink__ job responsible for __generating real-time alerts__ based on __core banking__ data.
               * __Implemented__ a __Flink__ job responsible for making __core banking__ data and other systems' information available in the __Data Lake__ in __near real-time__, using __Iceberg__ tables. Implemented and orchestrated the execution of various __table maintenance operations__.
               * __Improved__ the internal __flow orchestrator__ (__Spring Boot__ + __Angular__) and helped make it cloud provider agnostic.
