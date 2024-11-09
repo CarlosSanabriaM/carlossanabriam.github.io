@@ -179,40 +179,78 @@ params:
   experience:
     enable: true
     companies:
+      - company: "Openbank"
+        companyUrl: "https://www.opendigitalservices.com/"
+        jobs:
+          - job: "Associate Manager I - Big Data - Data Lake"
+            date: "May 2023 - Present"
+            info:
+              enable: false
+            content: |
+              * Was a member of the __platform team__, a __cross-functional group__ responsible for managing the __data lake__ and developing and maintaining various __data tools__ to support and enhance the __data infrastructure__, as well as the other __data teams__.
+              * __Improved__ and __optimized__ a __Flink__ job responsible for __generating real-time alerts__ based on __core banking__ data.
+              * __Implemented__ a __Flink__ job responsible for making __core banking__ data and other systems' information available in the __Data Lake__ in __near real-time__, using __Iceberg__ tables. Implemented and orchestrated the execution of various __table maintenance operations__.
+              * __Improved__ the internal __flow orchestrator__ (__Spring Boot__ + __Angular__) and helped make it cloud provider agnostic.
+              * __Technologies:__ Java, Scala, Flink, Iceberg, Avro, Schema Registry, Spring, AWS (Kinesis, Glue, Lambda, CloudWatch, CloudFormation).
+
+      - company: "UAX"
+        companyUrl: "https://www.uax.com/"
+        jobs:
+          - job: "Associate Professor"
+            date: "Oct. 2023 - Present"
+            info:
+              enable: true
+              content: Universidad Alfonso X el Sabio
+            content: |
+              * Professor of __Python__ in the subject __Programming Languages__ (SM142050) of the [Master's Degree in Artificial Intelligence](https://www.uax.com/titulaciones/master-inteligencia-artificial).
+              * Professor and coordinator of the subject __Cloud Software Development and DevOps__ (C0342506) of the [Bachelor's Degree in Data Science and Artificial Intelligence](https://www.uax.com/titulaciones/grado-online-en-ciencia-de-datos-e-inteligencia-artificial).
+
       - company: "Accenture"
         companyUrl: "https://www.accenture.com"
         jobs:
+          - job: "Team Lead / Consultant - Big Data & Cloud"
+            date: "Dec. 2022 - May 2023"
+            info:
+              enable: false
+            content: |
+              * Defined __cost and security controls__ for the __Big Data Cloud platform (AWS) of a banking project valued at €10M__, using AWS services such as __Lambda, CloudWatch, SNS, IAM, and CloudFormation__.
+              * __Trained 50 people__ in __Python__ and __streaming (Kafka + Flink)__ in __2 editions__ of an __internal Accenture bootcamp__.
+              * __Led the training__ in Python, PySpark, and AWS for a group of __13 people__ (junior and senior profiles). __Ensured__ that all __obtained__ the __AWS Certified Cloud Practitioner__ certification. __Integrated them into the project__ and __facilitated their collaboration and growth__.
+              * Acted as a __mentor__ for 3 people, __internship supervisor__ for 3 students, and __thesis advisor__ for one Bachelor's thesis.
+
           - job: "Advanced App Engineering Senior Analyst - Big Data"
-            date: "Dic 2020 - Present"
+            date: "Dec. 2020 - Dec. 2022"
             info:
               enable: false
             content: |
               * Developed and __end-to-end solution__ for __monitoring__ __Flink__ and __EMR__; which includes the collection, processing and loading of Flink/EMR __metrics__ and __logs__; and the creation of __dashboards__ in __Grafana__ and __Kibana__ for their visualization and analysis.
               * __Automated__ the __configuration__ of the __EMR__ clusters through __Ansible__, following a __GitOps__ philosophy.
-              * Implemented a __Continuous Delivery__ pipeline for the deployment of __Flink__ jobs in __EMR__, based on the __declarative__ paradigm.
+              * Implemented a __Continuous Delivery__ process for deploying __Flink__ jobs on __EMR__, based on the __declarative__ paradigm.
               * Developed a __proof of concept__ of the new __Flink SQL__ version, to __homologate__ it and promote its usage within the project.
-              * Improved and __evolved__ a __Java framework__ based on __Flink__, including abstractions over the new __Flink SQL__ API version, which __simplified the development__ of streaming applications focused on the __joins__ between streams of events.
-              * __Reduced__ in a __60\%__ the __costs__ of the __AWS infrastructure__, due to the __analysis__ of the __consumptions__ of the __EMR__ and __ElastiCache__ services, and the __optimization__ of the used __instances__ (number and type of instances, as well as the use of __spot__ instances).
-              * Kept a __close contact__ with the development teams of the __client__, focused on the decision making and continuous improvement.
-              * Made __guards__ focused on the __maintenance__ of the __production__ applications, __solving__ numerous __incidents__.
-              * Was __selected__ by __Accenture__ to take part of the __TechStar__ program (in which  __less than 1%__ of the analysts and consultants of Accenture Technology can participate), and in which I was able to __reinforce__ my __technical__, __soft__ and __management skills__.
-              * __Interviewed__ __3 people__ to choose a new member for our project __development team__ (technical interviews).
-              * __Lead__ a __team of 3 developers__ to carry out and deploy multiple __projects__ developed in __Flink__.
-              * __Participated__ in a __RFP__ (Request For Proposals) for one of the largest insurance companies in the market, in which I __designed__ a __serverless microservices architecture__ on __AWS__, with high and low level diagrams, which was a complete __success__, given the fact that __the project was awarded to Accenture__, and we received the __direct greetings from the CDO__ of the insurance company.
+              * Improved and __evolved__ our __Java framework__ based on __Flink__ with abstractions over __Flink SQL__, which __simplified the development__ of streaming applications focused on __joining__ event streams.
+              * __Reduced AWS infrastructure costs__ by __60%__ by __optimizing EMR__ and __ElastiCache__ instances.
+              * Maintained __close communication__ with the client's development teams, focusing on decision-making and continuous improvement.
+              * Took part in __on-call duty__, handling __maintenance__ of __production__ applications and __resolving__ numerous __incidents__.
+              * Conducted __technical interviews with 3 candidates__ to select a new member for our project’s __development team__.
+              * __Led a team of 3 developers__ to implement and deploy numerous __streaming projects__ with __Flink__.
+              * __Helped win__ an __RFP__ (Request For Proposals) from one of the largest insurance companies in the market, where I __designed__ a __serverless architecture__ based on __microservices__ on __AWS__.
+                * It was a __resounding success__, as __the project was awarded to Accenture__ and we received __personal recognition from the CDO__ (Chief Data Officer) of the insurance company.
+              * Was __selected__ by __Accenture__ to participate in the __exclusive TechStar program__, where I had the opportunity to further develop my technical, interpersonal, and management skills.
+                * __Less than 1%__ of the analysts and consultants of Accenture Technology can participate in this program.
 
           - job: "Advanced App Engineering Analyst - Big Data"
-            date: "May 2019 - Dic 2020"
+            date: "May 2019 - Dec. 2020"
             info:
               enable: false
             content: |
-              * Designed and implemented a __Java framework based on Apache Flink__ which eased the development of __Big Data applications for processing events in real time__, that abstracts the following components: security configurations, read/write events from/to Kafka, N-N joins among events, generation of custom metrics, timestamps management, ...
-              * Implemented and deployed in __AWS__ multiple __streaming applications__ employing the previous framework, using services such as __EMR, S3, ElastiCache, EC2 and Certificate Manager__, and technologies such as __Kafka, Redis, CouchBase y Hadoop YARN__.
-              * Implemented multiple __scripts in Python and Bash__ for automating processes.
+              * Designed and implemented a __Java framework based on Flink__ that facilitated the development of __streaming applications__
+                * This framework abstracts several common components, including: security configurations, read/write events from/to Kafka, N-N joins between events, generation of custom metrics, and timestamps management.
+              * Implemented and deployed numerous __streaming applications__ on __AWS__ using the previous framework, services such as __EMR, S3, ElastiCache, EC2, and Certificate Manager__, and technologies such as __Flink, Kafka, Redis, CouchBase, and Hadoop YARN__.
+              * Automated numerous internal processes using __Python and Bash scripts__.
               * Contributed to the adoption of a __testing culture__ focused on specification-based techniques (__Equivalent Class Partitioning__) and structure-based techniques (__MCDC - Modified condition/decision coverage__).
-              * Took part of a __multidisciplinary development team__, guided by __Agile methodologies__, and focused in the __continuous integration__ (version control with __Git and GitLab__, __code reviews__ through Merge Requests, __Jenkins__, __SonarQube__ and __Artifactory__).
 
-          - job: "Intern in Artificial Intelligence"
-            date: "Feb 2019 - May 2019"
+          - job: "Artificial Intelligence Intern"
+            date: "Feb. 2019 - May 2019"
             featuredLink:
               enable: true
               name: "Project website"
@@ -221,19 +259,19 @@ params:
               enable: true
               content: The project I worked on in this internship was presented as my final degree project.
             content: |
-              * Developed a library for the __identification of topics__ present in a collection of documents, the __classification of documents__ in those topics, and the __generation of extractive text summaries__, using Natural Language Processing techniques (__NLP__), by means of supervised and unsupervised learning, in the __Python__ programming language.
-              * Developed a __REST API in Flask__ and a __frontend in Angular__ which eased the interaction with a collection of documents.
+              * Developed a __Python library__ for __topic identification__ in a collection of documents, the __classification of documents__ into those topics, and the __generation of extractive text summaries__, using __NLP__ (Natural Language Processing) techniques.
+              * Developed a __REST API in Flask__ and a __frontend in Angular__, which eased the interaction with a collection of documents.
 
       - company: "UniOvi"
         companyUrl: "https://www.uniovi.es"
         jobs:
           - job: "Computer Science Intern"
-            date: "Oct 2017 - May 2018"
+            date: "Oct. 2017 - May 2018"
             info:
               enable: true
               content: Universidad de Oviedo
             content: |
-              * __Installed__ diverse __software__ packages and __repaired__ multiple __hardware__ equipments. __Managed the inventory__. __Solved problems__ of various kinds, both from students and teachers (where stood out the problems related to the __Active Directory__).
+              * __Installed__ several __software packages__ and __repaired__ multiple __hardware devices__. __Managed the inventory__ and __resolved__ a range of issues for both students and teachers, with a particular focus on problems related to __Active Directory__.
 
   # Education
   education:
