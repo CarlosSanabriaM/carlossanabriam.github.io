@@ -263,14 +263,16 @@ params:
     items:
       - title: Accenture TechStar 2022
         content: |-
-          I was selected by Accenture to take part of the select TechStar program,
-          in which I was able to reinforce my technical, soft and management skills.
+          I was selected by Accenture to participate in the exclusive TechStar program,
+          where I had the opportunity to further develop my technical, interpersonal, and management skills.
         url: "https://www.linkedin.com/pulse/accenture-technology-stars-2018-sam-liew/"
+
       - title: Final Degree Award
-        content: I received this award for achieving the highest GPA of my promotion in the Software Engineer Degree.
+        content: I received this award for achieving the best academic record (the highest GPA) in my cohort for the Bachelor's Degree in Software Engineering.
         url: "https://drive.google.com/file/d/1krHMfnayADHeWNg5gBrqJwiVuEcmiIC1/view?usp=sharing"
+
       - title: Grace Hopper Award
-        content: I received this award for my academic excellence in the Software Engineer Degree.
+        content: I received this award in recognition of my academic excellence in the Bachelor's Degree in Software Engineering.
 
   # Contact
   contact:
