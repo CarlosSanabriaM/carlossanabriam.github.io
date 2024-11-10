@@ -271,7 +271,9 @@ params:
               enable: true
               content: Universidad de Oviedo
             content: |
-              * __Installed__ several __software packages__ and __repaired__ multiple __hardware devices__. __Managed the inventory__ and __resolved__ a range of issues for both students and teachers, with a particular focus on problems related to __Active Directory__.
+              * __Installed__ several __software packages__ and __repaired__ multiple __hardware devices__.
+              * __Managed the inventory__.
+              * __Resolved__ a wide range of issues for both students and teachers, with a particular focus on problems related to __Active Directory__.
 
   # Education
   education:
