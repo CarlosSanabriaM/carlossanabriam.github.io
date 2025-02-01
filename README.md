@@ -80,7 +80,7 @@ Execute the following commands on a terminal:
 ```bash
 cd <project-folder>
 hugo new site . -f=yaml --force
-git submodule add https://github.com/gurusabarish/hugo-profile.git themes/hugo-profile
+git submodule add https://github.com/CarlosSanabriaM/hugo-profile.git themes/hugo-profile
 ```
 
 This will create the Hugo project structure inside your repo,
@@ -89,7 +89,7 @@ and add the Hugo Profile theme as a [Git submodule](https://git-scm.com/book/en/
 ## 7. Modify the website content and preview it locally
 In order to do that, you need to:
 * Modify the `config.yaml` file (you can use the one in this repo or the
-  [official example](https://github.com/gurusabarish/hugo-profile/blob/master/exampleSite/config.yaml) as reference)
+  [official example](https://github.com/CarlosSanabriaM/hugo-profile/blob/master/exampleSite/config.yaml) as reference)
 * Load content to the `static` folder
     * `fav.png`: [favicon icon](https://en.wikipedia.org/wiki/Favicon)
     * `images/hero.png` or `images/hero.svg`: profile picture
@@ -134,7 +134,7 @@ __Happy coding! :)__
 * [Hugo Install](https://gohugo.io/getting-started/installing/)
 * [Hugo QuickStart](https://gohugo.io/getting-started/quick-start/)
 * [Hugo Profile theme](https://themes.gohugo.io/themes/hugo-profile/)
-* [Hugo Profile theme config reference](https://github.com/gurusabarish/hugo-profile/blob/master/exampleSite/config.yaml)
+* [Hugo Profile theme config reference](https://github.com/CarlosSanabriaM/hugo-profile/blob/master/exampleSite/config.yaml)
 * [Hugo Host on GitHub](https://gohugo.io/hosting-and-deployment/hosting-on-github/)
 * [GitHub Pages](https://pages.github.com/)
 * [Git Submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules)
