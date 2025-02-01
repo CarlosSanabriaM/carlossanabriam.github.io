@@ -181,6 +181,7 @@ params:
     companies:
       - company: Openbank
         companyUrl: https://www.opendigitalservices.com/
+        companyLogo: /images/companies-logos/openbank-logo.png
         jobs:
           - job: Associate Manager I - Big Data - Data Lake
             date: May 2023 - Present
@@ -195,6 +196,7 @@ params:
 
       - company: UAX
         companyUrl: https://www.uax.com/
+        companyLogo: /images/companies-logos/uax-logo.svg
         jobs:
           - job: Associate Professor
             date: Oct. 2023 - Present
@@ -207,6 +209,7 @@ params:
 
       - company: Accenture
         companyUrl: https://www.accenture.com
+        companyLogo: /images/companies-logos/accenture-logo.png
         jobs:
           - job: Team Lead / Consultant - Big Data & Cloud
             date: Dec. 2022 - May 2023
@@ -264,6 +267,7 @@ params:
 
       - company: UniOvi
         companyUrl: https://www.uniovi.es
+        companyLogo: /images/companies-logos/uniovi-logo.png
         jobs:
           - job: Computer Science Intern
             date: Oct. 2017 - May 2018
